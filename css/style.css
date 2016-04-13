@@ -1,0 +1,76 @@
+body {
+  min-width: 430px;
+  background: #D7F9DF;
+  font-family: 'Righteous', cursive;
+}
+
+.container > img {
+  margin: auto;
+  margin-top: 5px;
+}
+
+.button-box {
+  text-align: center;
+}
+
+.button-box > input {
+  font-size: 35px;
+  text-align: center;
+  width: 10%;
+  line-height: 35px;
+  background: transparent;
+  border: none;
+}
+
+.button-box > button {
+  font-size: 28px;
+  background: transparent;
+  border: none;
+  outline: 0;
+}
+
+.timer-box {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  position: relative;
+  min-width: 420px;
+}
+
+.timer-border {
+  margin: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 400px;
+  border-radius: 800px;
+  border: 5px solid #9DD8A4;
+  z-index: 4;
+  cursor: pointer;
+}
+
+.red-circle {
+  position: absolute;
+  margin: 3px;
+  height: 385px;
+  width: 385px;
+  border-radius: 794px;
+  border: 3px solid #9DD8A4;
+  background-color: #9DD8A4;
+  z-index: 2;
+  clip: rect(385px, 385px, 385px, 0px);
+}
+
+.clock-title {
+  margin-top: 100px;
+  position: relative;
+  font-size: 45px;
+  z-index: 5;
+}
+
+.clock-count {
+  margin-top: 50px;
+  position: relative;
+  font-size: 45px;
+  z-index: 5;
+}
